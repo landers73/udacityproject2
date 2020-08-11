@@ -1,0 +1,35 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue":"Udacity-High-Availability-Zone"
+    },
+    {
+        "ParameterKey": "VpcCidr",
+        "ParameterValue":"10.0.0.0/16"
+    },
+    {
+        "ParameterKey" : "PublicSubnetACIDR",
+        "ParameterValue" : "10.0.10.0/24"
+    },
+    {
+        "ParameterKey":"PublicSubnetBCIDR",
+        "ParameterValue":"10.0.20.0/24"
+    },
+    {
+        "ParameterKey":"PrivateSubnetACIDR",
+        "ParameterValue":"10.0.30.0/24"
+    },
+    {
+        "ParameterKey":"PrivateSubnetBCIDR",
+        "ParameterValue":"10.0.40.0/24"
+    },
+    {
+        "ParameterKey":"KeyName",
+        "ParameterValue": "test_ec2"
+    },
+    {
+        "ParameterKey" : "AMI",
+        "ParameterValue": "ami-003634241a8fcdec0"
+    }
+
+]
